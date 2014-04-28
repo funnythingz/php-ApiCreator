@@ -18,10 +18,10 @@ ApiCreator::createJSON($data);
 
 ```json
 {
-    status: "200",
-    data: {
-        hoge: "hoge",
-        ahya: "ahya"
+    "status" : "200",
+    "data" : {
+        "hoge" : "hoge",
+        "ahya" : "ahya"
     }
 }
 ```
