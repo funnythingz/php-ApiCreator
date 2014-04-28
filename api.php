@@ -10,7 +10,7 @@ class ApiCreator {
 
 class Main {
 
-    static public function ready() {
+    static public function putJSON() {
 
         $data = [
             "status" => "200",
@@ -29,4 +29,4 @@ class Main {
 
 }
 
-Main::ready();
+Main::putJSON();
