@@ -3,7 +3,7 @@
 require_once('./api-creator.php');
 
 $data = [
-    "status" => "200",
+    "status" => (string)http_response_code(),
     "data" => [
         "hoge" => "hoge",
         "ahya" => "ahya"

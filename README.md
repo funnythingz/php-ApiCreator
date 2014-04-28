@@ -6,7 +6,7 @@ create json from array for php v5.4~
 require_once('./api-creator.php');
 
 $data = [
-"status" => "200",
+"status" => (string)http_response_code(),
     "data" => [
         "hoge" => "hoge",
         "ahya" => "ahya"
@@ -14,4 +14,14 @@ $data = [
 ];
 
 ApiCreator::createJSON($data);
+```
+
+```json
+{
+    status: "200",
+    data: {
+        hoge: "hoge",
+        ahya: "ahya"
+    }
+}
 ```
