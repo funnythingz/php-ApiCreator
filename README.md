@@ -1,6 +1,6 @@
 # ApiCreator
 
-create json from array for php v5.4~
+create json from array for php v5.4 -
 
 ```php
 require_once('./api-creator.php');
